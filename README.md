@@ -1,12 +1,12 @@
 # Laravel & React Agent Skills ⚡
 
-Colección definitiva de **19 Agent Skills** especializadas para potenciar asistentes de Inteligencia Artificial (Claude Code, Cursor, Windsurf, Gemini, Copilot, Amp, Cline, Antigravity) en proyectos basados en **Laravel, Inertia.js, React, Tailwind CSS** y desarrollo web moderno en general.
+Colección definitiva de **20 Agent Skills** especializadas para potenciar asistentes de Inteligencia Artificial (Claude Code, Cursor, Windsurf, Gemini, Copilot, Amp, Cline, Antigravity) en proyectos basados en **Laravel, Inertia.js, React, Tailwind CSS** y desarrollo web moderno en general.
 
 ---
 
-## 🚀 Instalación Rápida: Las 19 Skills en 1 Segundo
+## 🚀 Instalación Rápida: Las 20 Skills en 1 Segundo
 
-Para instalar el kit completo de **19 skills directamente en tu proyecto dentro de `.agents/skills/`** de forma 100% limpia y automática, abre la terminal en la raíz de tu proyecto y ejecuta según tu sistema:
+Para instalar el kit completo de **20 skills directamente en tu proyecto dentro de `.agents/skills/`** de forma 100% limpia y automática, abre la terminal en la raíz de tu proyecto y ejecuta según tu sistema:
 
 ### 🪟 Windows (PowerShell) - Opción directa (1 sola línea):
 ```powershell
@@ -40,10 +40,11 @@ npx skills add https://github.com/ANONIMUS-B/laravel-agents-skills --skill <nomb
 
 ---
 
-## 📚 Catálogo Completo de las 19 Skills
+## 📚 Catálogo Completo de las 20 Skills
 
 | Skill | Categoría | Descripción | Comando de Instalación Individual |
 | :--- | :--- | :--- | :--- |
+| **`github-pre-push`** | CI / CD | Protocolo de verificación estricto para garantizar que los workflows de GitHub Actions (linter, tests, types:check, SQLite y permisos) pasen al 100% en verde antes de hacer push. | `npx skills add https://github.com/ANONIMUS-B/laravel-agents-skills --skill github-pre-push` |
 | **`brainstorming`** | Planificación | Marco estructurado para explorar y diseñar requerimientos antes de escribir código. | `npx skills add https://github.com/ANONIMUS-B/laravel-agents-skills --skill brainstorming` |
 | **`database-design`** | Base de Datos | Modelado relacional, estrategias de indexación, claves foráneas y migraciones zero-downtime. | `npx skills add https://github.com/ANONIMUS-B/laravel-agents-skills --skill database-design` |
 | **`api-design`** | Arquitectura | Estándares RESTful, respuestas uniformes, códigos de estado HTTP y versionado de APIs. | `npx skills add https://github.com/ANONIMUS-B/laravel-agents-skills --skill api-design` |
@@ -101,6 +102,7 @@ laravel-agents-skills/
     ├── database-design/
     ├── deploying-to-cloud/
     ├── fortify-development/
+    ├── github-pre-push/
     ├── impeccable/
     ├── inertia-react-development/
     ├── infer-conventions/

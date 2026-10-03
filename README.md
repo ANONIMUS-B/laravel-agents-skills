@@ -44,7 +44,7 @@ npx skills add https://github.com/ANONIMUS-B/laravel-agents-skills --skill <nomb
 
 | Skill | Categoría | Descripción | Comando de Instalación Individual |
 | :--- | :--- | :--- | :--- |
-| **`github-pre-push`** | CI / CD | Protocolo de verificación estricto para garantizar que los workflows de GitHub Actions (linter, tests, types:check, SQLite y permisos) pasen al 100% en verde antes de hacer push. | `npx skills add https://github.com/ANONIMUS-B/laravel-agents-skills --skill github-pre-push` |
+| **`github-pre-push`** | CI / CD | Protocolo de verificación estricto para garantizar que los workflows de GitHub Actions (VitePlus vp check, types:check, PHPStan baselines, SQLite y tests) pasen al 100% en verde antes de hacer push. | `npx skills add https://github.com/ANONIMUS-B/laravel-agents-skills --skill github-pre-push` |
 | **`brainstorming`** | Planificación | Marco estructurado para explorar y diseñar requerimientos antes de escribir código. | `npx skills add https://github.com/ANONIMUS-B/laravel-agents-skills --skill brainstorming` |
 | **`database-design`** | Base de Datos | Modelado relacional, estrategias de indexación, claves foráneas y migraciones zero-downtime. | `npx skills add https://github.com/ANONIMUS-B/laravel-agents-skills --skill database-design` |
 | **`api-design`** | Arquitectura | Estándares RESTful, respuestas uniformes, códigos de estado HTTP y versionado de APIs. | `npx skills add https://github.com/ANONIMUS-B/laravel-agents-skills --skill api-design` |
@@ -75,7 +75,8 @@ flowchart LR
     B --> C[3. Backend & Inertia]
     C --> D[4. Code Review & Refactoring]
     D --> E[5. Security & Testing]
-    E --> F[6. Cloud Deploy & Changelog]
+    E --> F[6. Pre-Push CI Check]
+    F --> G[7. Cloud Deploy & Changelog]
 ```
 
 1. **Concepción:** Usa `brainstorming`, `database-design` y `api-design` para planificar.
@@ -83,7 +84,8 @@ flowchart LR
 3. **Desarrollo:** Conecta backend y frontend con `laravel-best-practices`, `inertia-react-development` y `wayfinder-development`.
 4. **Optimización & Revisión:** Audita React con `vercel-react-best-practices`, haz `code-review` y limpia deuda con `refactoring-clean-code`.
 5. **Seguridad & Pruebas:** Aplica `security-audit`, crea tests con `testing-best-practices` y resuelve fallos con `systematic-debugging`.
-6. **Lanzamiento:** Genera notas con `changelog-generator` y despliega con `deploying-to-cloud`.
+6. **Pre-Push & CI:** Ejecuta `github-pre-push` (`composer ci:check`) para garantizar 0 errores en GitHub Actions.
+7. **Lanzamiento:** Genera notas con `changelog-generator` y despliega con `deploying-to-cloud`.
 
 ---
 

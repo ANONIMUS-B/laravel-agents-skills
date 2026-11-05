@@ -1,12 +1,18 @@
 # Laravel & React Agent Skills ⚡
 
-Colección definitiva de **20 Agent Skills** especializadas para potenciar asistentes de Inteligencia Artificial (Claude Code, Cursor, Windsurf, Gemini, Copilot, Amp, Cline, Antigravity) en proyectos basados en **Laravel, Inertia.js, React, Tailwind CSS** y desarrollo web moderno en general.
+Colección definitiva de **21 Agent Skills** especializadas para potenciar asistentes de Inteligencia Artificial (Claude Code, Cursor, Windsurf, Gemini, Copilot, Amp, Cline, Antigravity) en proyectos basados en **Laravel, Inertia.js, React, Tailwind CSS** y desarrollo web moderno en general.
 
 ---
 
-## 🚀 Instalación Rápida: Las 20 Skills en 1 Segundo
+## 🌐 Herramientas para agentes de IA
 
-Para instalar el kit completo de **20 skills directamente en tu proyecto dentro de `.agents/skills/`** de forma 100% limpia y automática, abre la terminal en la raíz de tu proyecto y ejecuta según tu sistema:
+Consulta el [catálogo de herramientas para agentes](CATALOGO-AGENTES.md) para usarlas en distintos proyectos y agentes compatibles.
+
+---
+
+## 🚀 Instalación Rápida: Las 21 Skills en 1 Segundo
+
+Para instalar el kit completo de **21 skills directamente en tu proyecto dentro de `.agents/skills/`** de forma 100% limpia y automática, abre la terminal en la raíz de tu proyecto y ejecuta según tu sistema:
 
 ### 🪟 Windows (PowerShell) - Opción directa (1 sola línea):
 ```powershell
@@ -40,10 +46,11 @@ npx skills add https://github.com/ANONIMUS-B/laravel-agents-skills --skill <nomb
 
 ---
 
-## 📚 Catálogo Completo de las 20 Skills
+## 📚 Catálogo Completo de las 21 Skills
 
 | Skill | Categoría | Descripción | Comando de Instalación Individual |
 | :--- | :--- | :--- | :--- |
+| **`diagram-design`** | Diagramas | Diagramas HTML y SVG; incluye recursos y licencia del autor original. | `npx skills add ANONIMUS-B/laravel-agents-skills --skill diagram-design` |
 | **`github-pre-push`** | CI / CD | Protocolo de verificación estricto para garantizar que los workflows de GitHub Actions (VitePlus vp check, types:check, PHPStan baselines, SQLite y tests) pasen al 100% en verde antes de hacer push. | `npx skills add https://github.com/ANONIMUS-B/laravel-agents-skills --skill github-pre-push` |
 | **`brainstorming`** | Planificación | Marco estructurado para explorar y diseñar requerimientos antes de escribir código. | `npx skills add https://github.com/ANONIMUS-B/laravel-agents-skills --skill brainstorming` |
 | **`database-design`** | Base de Datos | Modelado relacional, estrategias de indexación, claves foráneas y migraciones zero-downtime. | `npx skills add https://github.com/ANONIMUS-B/laravel-agents-skills --skill database-design` |
@@ -102,6 +109,7 @@ laravel-agents-skills/
     ├── changelog-generator/
     ├── code-review/
     ├── database-design/
+    ├── diagram-design/
     ├── deploying-to-cloud/
     ├── fortify-development/
     ├── github-pre-push/

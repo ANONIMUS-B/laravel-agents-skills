@@ -4,7 +4,7 @@ Este catálogo reúne las fuentes y las instrucciones para reutilizarlas en dist
 
 ## Skills incluidas en este repositorio
 
-Consulta la [lista de skills](README.md#-catálogo-completo-de-las-21-skills). Incluye [Diagram Design](skills/diagram-design/SKILL.md), procedente de [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design), con sus recursos y licencia MIT. La copia corresponde al commit `f24d98b05e2d7a5e68c2dedfe46e5b7173f50118`; para recibir cambios posteriores hay que actualizarla expresamente.
+Consulta la [lista de skills](README.md#-catálogo-completo-de-las-22-skills). Incluye [Diagram Design](skills/diagram-design/SKILL.md), procedente de [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design), con sus recursos y licencia MIT. La copia corresponde al commit `f24d98b05e2d7a5e68c2dedfe46e5b7173f50118`; para recibir cambios posteriores hay que actualizarla expresamente.
 
 Con Node.js y Git instalados, puedes instalar una skill desde cualquier proyecto o para tu usuario mediante el instalador compatible con Agent Skills:
 
@@ -20,7 +20,7 @@ El instalador permite seleccionar agentes. Consulta la [documentación de skills
 
 ## Fuentes externas
 
-Los enlaces siguientes son referencias a sus proyectos originales. Salvo la copia indicada de Diagram Design, este catálogo no contiene sus archivos ni los instala automáticamente.
+Los enlaces siguientes son referencias a sus proyectos originales. La copia de Diagram Design y las instrucciones de Agent Browser se incluyen en este repositorio; sus herramientas externas no se instalan automáticamente.
 
 ### [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp)
 
@@ -64,7 +64,14 @@ Enlace guardado para consulta. No se pudo verificar su documentación ni sus req
 
 ### [Agent Browser](https://agent-browser.dev/skills)
 
-Herramienta para automatizar el navegador y skill que enseña a los agentes a utilizarla. Sigue primero la [instalación de agent-browser](https://agent-browser.dev/installation); instalar la skill por sí sola no instala necesariamente la herramienta. Después puedes instalar la skill para agentes compatibles:
+Herramienta para automatizar el navegador. Este repositorio incluye una [skill de Agent Browser](skills/agent-browser/SKILL.md) que carga la guía de la versión instalada de la CLI. Instalar la skill no instala la herramienta ni el navegador. Para instalarlos, ejecuta:
+
+```powershell
+npm install -g agent-browser
+agent-browser install
+```
+
+Consulta la [instalación oficial](https://agent-browser.dev/installation) para más opciones. También puedes instalar la skill original directamente para agentes compatibles:
 
 ```powershell
 npx skills add vercel-labs/agent-browser --global
